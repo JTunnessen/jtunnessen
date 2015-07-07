@@ -1,0 +1,52 @@
+// Updating Ruby and Rails on Ubuntu
+
+sudo apt-get update
+* Prep your machine
+
+sudo apt-get install curl
+* Use curl to install Ruby and RVM - Ruby Version Manager
+
+If you need to update RVM
+$ rvm get stable
+- o r -
+$ rvm get head
+$ rvm reload
+$ rvm get stable
+
+Install Ruby 2.2.2
+$ rvm install ruby-2.2.2
+
+Need to make sure Node.js is installed. The JavaScript runtime is required to compile code for the Rails asset pipeline.
+
+$ sudo apt-get install nodejs
+
+or use the RubyRacer Gem, you will need to add this into the gemfile
+gem 'therubyracer'
+
+To review which gems you have in your gemset(s)
+$ rvm gemset list
+"default" and "global" are installed by default
+
+$ rvm gemset use global
+$ gem list
+
+Make a gemset for your version of Ruby in RVM
+$ rvm use ruby-2.2.2@rails4.2 --create
+
+Install the latest version of rails
+$ gem install rails
+$ rails -v
+* to check out which version
+
+How to create a project specific gemset, installing rails, and creating a new application
+
+Create a Rails projects folder
+$ mkdir prog_projects
+$ cd prog_projects
+
+Create a NEW RAILS APPLICATION
+$ mkdir mynewapp
+$ cd mynewapp
+$ rvm use ruby-2.2.2@mynewapp --ruby-version --create
+$ gem install rails
+$ rails new . 

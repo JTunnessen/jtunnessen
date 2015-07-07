@@ -1,0 +1,11 @@
+Working with Node
+
+npm commands
+
+# create a JSON package
+npm init 
+# this will prompt you for the information you want to put in the JSON document
+
+# this will add the dependencies to the JSON document
+npm install --save request
+
