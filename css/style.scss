@@ -31,7 +31,8 @@ a{
 .site-title{
 	margin: 0px;
 	font-size: 4em;
-	text-align: center;
+	text-align: left;
+	margin-left: 12px;
 }
 
 nav ul {
@@ -305,10 +306,10 @@ article{
 		text-decoration: none;
 		box-sizing: border-box;
 		border-radius: 4px;
-		border: 1px solid transparent;
+		border: 1px solid #C0C0C0;
 
 		&:hover{
-			border: 1px solid #ccc;
+			border: 1px solid #A0A0A0;
 		}
 	}
 	.next::after, .next:after{
