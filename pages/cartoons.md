@@ -10,7 +10,19 @@ sitemap:
 <br>
 ---
 <br>
+![StapledForehead: Weekend Weight Gain](/img/Weekend-Weight.png "Weekend Weight Gain")
+<br>
+---
+<br>
+![StapledForehead: Pop-gun General](/img/PopGunGeneralCOLORD.png "Pop-gun General")
+<br>
+---
+<br>
 ![StapledForehead: Reverse Fish Tank](/img/ReverseFishTankCOLORD.png "Reverse Fish Tank")
+<br>
+---
+<br>
+![StapledForehead: Turn Up the Heat](/img/TurnUpTheHeatCOLORDLG.png "Turn Up the Heat")
 <br>
 ---
 <br>
@@ -22,9 +34,16 @@ sitemap:
 <br>
 ---
 <br>
-![StapledForehead: Need a Bigger Fish Tank Cartoon](/img/NeedaBiggerTankColored.jpg "Need a Bigger Fish Tank")
+![StapledForehead: Paper Airlines](/img/PaperAirplane.jpg "Paper Airlines")
 <br>
 ---
 <br>
 ![StapledForehead: That is a large coffee](/img/LargeCoffeeLG.png "Large Coffee")
+<br>
+---
+<br>
+![StapledForehead: New Personal Trainer](/img/NewPersonalTrainerCOLORD.png "New Personal Trainer")
+---
+<br>
+![StapledForehead: Need a Bigger Fish Tank Cartoon](/img/NeedaBiggerTankColored.jpg "Need a Bigger Fish Tank")
 <br>
