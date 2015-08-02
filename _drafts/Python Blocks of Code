@@ -1,0 +1,34 @@
+Python Blocks of Code
+
+You can group your Python code together. These groups of code are called blocks. Python blocks follow these three rules:
+
+1. Blocks begin when the indentation increases.
+2. Blocks can contain other blocks.
+3. Blocks end when the indentation decreases to zero or to a containing block's indentation.
+
+Example fo a Python Block:
+
+# Create a prompt for the user to tell you his favorite color
+print('Tell me your favorite color:')
+# Create a descriptive variable that allows for the user's input
+fav_color = input()
+#Provide alternative responses to the user based on the color he entered
+# Block starts here
+if fav_color == 'red':
+	print('STOP! That\'s right your favorite color is the same color as a stop sign.')
+elif fav_color == 'blue':
+	print('Up above you. Your favorite color is the same color as the sky.')
+elif fav_color == 'green':
+	print('Look down. Your favorite color grows in the front yard.')
+else:
+	print('Can you tell me where you can find your favorite color?')
+# Block ends here
+
+You can copy this code out of here and save it in a file called color.py. Navigate through the terminal to the folder holding this file on your sytem and run
+
+$ python color.py
+
+in your terminal window to see the program in action. Type in 'blue', 'red', 'green', and 'black' to see how the program processes the answers to the question, "What is your favorite color?"
+
+Can you add additional selections to the program? 
+Can you provide a response for the color 'yellow'?

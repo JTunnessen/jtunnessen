@@ -1,0 +1,38 @@
+Mixing Python Boolean and Comparison Operators
+
+Remember Comparison Operators: ==, <=, >=, !=, >, < #Link to Comparison Ops write up
+And Boolean Operators: and, or, not #Link to Boolean Operators write up
+
+>>> (9 == 9) or (10 == 10)
+True
+
+>>> (9 == 9) or (10 >= 10)
+True
+
+>>> (9 == 9) or (10 >= 11)
+True
+
+>>> (9 == 9) and (10 >= 10)
+True
+
+>>> (9 == 10) or (10 >= 11)
+False
+
+>>> (9 == 9) and (10 >= 11)
+False
+
+Remember when using the not Operator you are comparing only one Boolean value so the whole thing is either True or False.
+
+>>> (9 == 9) not (10 >= 11)
+  File "<stdin>", line 1
+    (9 == 9) not (10 >= 11)
+                 ^
+SyntaxError: invalid syntax
+
+If you leave out the additional operator that causes your expression to be either one thing or the other (not comparing the two sides) you will generate an error.
+
+>>> (9 == 9) and not (10 >= 11)
+True
+
+>>> (9 == 9) or not (10 >= 11)
+True

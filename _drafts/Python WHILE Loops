@@ -1,0 +1,61 @@
+Python WHILE Loops
+
+Do you want to do something over and over again? Perhaps your boss keeps asking for a weekly report, your parents keep asking you to do chores and you are really tired of saying "I'm busy." So you create a WHILE loop that says "No, I'm busy." everytime they ask." the code in a WHILE loop (clause) will be executed as long as the WHILE statement's condition is True.
+
+A WHILE statement consists of:
+
+1. The keyword while
+2. A condition (that is, an expression that evaluates to True or False)
+3. A colon
+4. Starting on the next line, an indented block of code (called the while clause)
+
+So how does this work? In an if statement, the code is executed through the statement until something evaluates to True. Once you have a True, the program moves on to whatever is after the if statement. The concept is the same for the while statement (loop), the program moves through the while statement. Once it reaches the end of the while statement, it goes back to the beginning of the while statement and executes again until the condition is evaluated to True.
+
+---------------------------
+Shooting hoops
+
+shot = 0
+while shot < 10:
+	print('Nothing but net!')
+	shot = shot + 1
+
+This is a while statement. So looking at this Shooting Hoops statement, what does it do? 
+
+You start out with 0 basketball shots.
+shot = 0
+
+As long as the number of shots you take is less than 10 in a row
+while shot < 10
+
+You make a shot and score
+print('Nothing but net!')
+
+Each time a shot is made the count of the number of shots goes up by one
+shot = shot + 1
+
+Here is the hard question --> How many baskets did you make? Or, to put it another way --> Look at the program and how many times is 'Nothin but net!' printed out?
+
+Add print("I'm finished. It's your turn.")
+
+Cut and paste the while loop below -- add person name
+
+Add print("You don't have anything on me!")
+
+-----------------------------------
+
+You can always cut/copy this code and save it as basketball.py and then run it in your terminal by typing: python basketball.py and hitting return/enter.
+
+The answer is 10. Just looking at the code, that doesn't make sense, does it? Because, the program says as long as the shot is less than 10 (while shot < 10). So, it never makes it to 10. Well, the program starts it's count at 0. The count begins 0 = Nothing but net!, 1 = Nothing but net!, 2 = Nothing but net!... all the way to 9 = Nothing but net! This equates to 10 shots being made. 
+
+What would happen if you changed the operator to <= ?
+
+You will get 11 shots equaling 'Nothing but net!'
+
+What if you only wanted 9 shots. What would you program?
+
+Oh yeah, be careful of endless loops...
+
+How do I get out of this loop?
+BREAK IT!
+
+A break statement allows you to hop out of that block of code. 

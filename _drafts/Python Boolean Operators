@@ -1,0 +1,38 @@
+Python Boolean Operators
+
+Boolean Operators are: and, or, and not. 
+
+'and' and 'or' always compare to Boolean values.
+
+For example:
+>>> True and False
+False
+
+>>> True and True
+True
+
+>>> False and False
+False
+
+>>> True or False
+True
+
+>>> True or True
+True
+
+>>> False or False
+False
+
+The not Operator operates on only one Boolean value. It simply evaluates to the opposite value.
+
+>>> not True
+False
+
+>>> not False
+True
+
+>>> not not True
+True
+
+>>> not not not not False
+False

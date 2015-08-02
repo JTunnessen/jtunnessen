@@ -1,0 +1,15 @@
+Python Common Data Types
+
+# Define DATA-TYPES in plain english
+
+Integers | -5, -3, -1, 0, 1, 3 , 5
+Well, they are integers.
+
+Floating-point numbers | -2.25, -1.3, -0.6, 0.7, 1.8, 15.9
+You guessed it Floating-point numbers have decimals.
+
+Strings | 'q', 'we', 'rty', 'Bonjour', 'What is your name?', '12 regenerations'
+Always wrap your strings in single quotes('Like this'). This way Python can read where your string begins and where your string ends.
+
+Booleans | True or False
+There are only two values to a boolean data type. It is either True or False. In Python they always start with a capital T or F with the rest of the word in lowercase. They are not surrounded by quotes. Quotes will turn it into a string.

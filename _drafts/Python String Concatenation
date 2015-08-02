@@ -1,0 +1,89 @@
+Python String Concatenation and Replication
+
+This is where the fun begins. Remember the +, this is the symbol for addition as a math operator. Well, when we use it with strings we can put multiple strings together. Think of it as adding words to a sentence. However, if you are doing that...don't forget to include a space. Open up your Python Interactive Shell and experiment with these examples.
+
+Examples:
+
+>>> 'Theo' + 'Thomas'
+'TheoThomas'
+
+Adding in a space can be done many ways:
+
+As a seperate space
+>>> 'Theo' + ' ' + 'Thomas'
+'Theo Thomas'
+
+At the end of a word
+>>> 'Space ' + 'there'
+'Space there'
+
+At the beginning of a word
+>>> 'Space' + ' here'
+'Space here'
+
+You cannot add integers to string
+>>> 12 + 'Doctors'
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+In order to add in an integer, which you are probably going to experience some time in your programming career. Unless it is a really, really short one. You need to convert the integer to a string. You do this by adding 'str' to the mix. You will use the string method ('str()') in order to accomplish this.
+>>> str(12) + ' Doctors'
+'12 Doctors'
+
+Replication
+
+Yep, you guessed it, just like you can add a word to the end of another word with the + operator, you can replicate words using the * operator.
+
+>>> 'Stacie' * 10
+'StacieStacieStacieStacieStacieStacieStacieStacieStacieStacie'
+
+Add a space at the end of the word
+>>> 'Marcia ' * 3
+'Marcia Marcia Marcia'
+
+Replicate an entire sentence
+>>> "I'll say it again. " * 3
+"I'll say it again. I'll say it again. I'll say it again. "
+Notice I used double quotes during that example (""). That was because of the apostrophe in the contraction "I will = I'll".
+
+If I had used all single quotation marks, we would have received an error because Python would have stopped evaluating the sentence early. The string started with a single quote therefore it would end with a single quote.
+It would look like this:
+
+>>> 'I'll say it again. ' * 3
+File "<stdin>", line 1
+    'I'll say it again. ' * 3
+        ^
+SyntaxError: invalid syntax
+
+So, we started with double quotes knowing that the string contained a single quote/apostrophe in it. We could use all single quotes, but then we have to "escape" the apostrophe so that we don't confuse the system. We do this by adding in a backslash. 
+
+>>> 'I\'ll say it again. ' * 3
+"I'll say it again. I'll say it again. I'll say it again. "
+
+You can only replicate with whole numbers. A Float will not work. You will receive an error.
+
+>>> 'What?' * 2.5
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't multiply sequence by non-int of type 'float'
+
+Also, it is worth noting that you cannot multiply a string by another string. Just in case you really wanted to do this.
+
+>>> 'I cannot' * 'do this'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't multiply sequence by non-int of type 'str'
+
+But, you could conver a string to an integer and get it to work.
+>>> 'I bet I can do this ' * int('5')
+'I bet I can do this I bet I can do this I bet I can do this I bet I can do this I bet I can do this '
+
+To do this, we used the Python Integer method and converted a string of 5 ('5', notice the single quotes) to an integer. You can easily see the conversion if you run this in your shell.
+>>> int('5')
+5
+Notice that the 5 does not have any quotes around it. It is now an integer.
+You can turn it back to a string with the string method.
+>>> str(5)
+'5'

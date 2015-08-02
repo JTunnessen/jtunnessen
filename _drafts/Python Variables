@@ -1,0 +1,87 @@
+Python Variables
+
+What is a variable?
+
+If I google it and land on the Variable (mathematics) Wikipedia page the definition is laid out right there in front of me. Well, that is there are three definitions right there in front of me. Yes, they are all similar, but the one that we want to focus on is the computer science variable.
+
+variable - a name (commonly an alphabetic character or a word) representing some value represented in computer memory.
+
+Yep, that is it. It is something that holds something else. Like a bucket holding water, or a box holding shoes. Of course, you can replace what is in the bucket or the box. The variable is the container that holds an item (or value) for you.
+
+You assign a value to a variable:
+
+>>> box = 'shoes'
+>>> box
+'shoes'
+
+In this example, I put a string of shoes in a variable I called box. When I call box out comes the string 'shoes'.
+
+>>> bucket = 'water'
+>>> bucket
+'water'
+
+I did the same thing with the bucket. I assigned the value of water to the variable bucket. These are assignment statements. The equal sign (=) is the assignment operator.
+
+You can put numbers (integers) in variables:
+>>> jersey_number = 42
+>>> jersey_number
+42
+
+You can put full sentences, paragraphs, books in a variable.
+>>> clock = 'Hickory, Dickory, Dock. The mouse ran up the clock...'
+>>> clock
+'Hickory, Dickory, Dock. The mouse ran up the clock...'
+
+You can change the values of the variables:
+>>> box = 'shoes'
+>>> box
+'shoes'
+>>> bucket = 'water'
+>>> bucket
+'water'
+>>> box = 'water'
+>>> bucket = 'shoes'
+>>> box
+'water'
+>>> bucket
+'shoes'
+
+You can add the contents of variables together:
+
+>>> number1 = 3
+>>> number2 = 5
+>>> number1 + number2
+8
+
+You can concatenate the values of variables:
+
+>>> box = 'shoes'
+>>> bucket = 'water'
+>>> box + bucket
+'shoeswater'
+
+You can add spaces if you know they are strings:
+
+>>> box + ' ' + bucket
+'shoes water'
+
+Python Variable Names
+
+Python variable names must follow three rules:
+1. It can only be one word
+2. It can use only letters, numbers, and the underscore (_) character.
+3. It can't begin with a number.
+
+Variable names are cAse-SenSITive. 
+This is one variable - Box
+This is another variable - bOx
+This is another variable - boX
+This is another variable - BOx
+This is another variable - BoX
+This is another variable - bOX
+This is another variable - BOX
+
+Good Python Practice
+* Start your variables with an lowercase letter.
+* PEP 8 (the official Python style guide) says that underscores should be used when naming a variable not camelCase.
+* A variable should have a descriptive name. This will keep you and other programmers from looking at the variable 'a' and wondering what is in it. If you have a variable named 'car_makes', you can have atleast a pretty good idea of what is in it.

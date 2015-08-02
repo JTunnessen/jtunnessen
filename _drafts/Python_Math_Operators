@@ -1,0 +1,12 @@
+
+Python Math Operators from the Highest to Lowest Precedence
+
+** | Exponent eg. 3**3 = 27
+%  | Modulus/Remainder eg. 40 % 3 = 1
+// | Integer division/floored quotient eg. 12 // 5 = 2
+/  | Division eg. 56 / 4 = 14
+*  | Mulitiplication eg. 4 * 5 = 20
+-  | Subtraction eg. 8 - 1 = 7
++  | Addition eg. 2 + 9 = 11
+
+These are similar to that of mathematics. They are evaluated from left to right and you can use parentheses to override the normal precedence. feel free to test these out in the Python interactive shell.

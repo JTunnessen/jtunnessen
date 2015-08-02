@@ -1,0 +1,47 @@
+Python Comparison Operators
+
+== | Equal to
+!= | Not equal to
+<  | Less than
+>  | Greater than
+<= | Less than or equal to
+>= | Greater than or equal to
+
+Don't get confused with = and == operators. The = operator assigns a value to the variable. The == operator compares whether or not the value on teh left of the sign is the same as teh value on the right of the sign.
+
+Assignment:
+>>> number = 1
+>>> number
+1
+
+Comparison:
+>>> 'number_1' == 'number_1'
+True
+
+These operators evaluate to True or False.
+For example:
+
+>>> 89 > 43
+True
+
+>>> 100 >= 120
+False
+
+>>> 50 == 60
+False
+
+>>> 123 != 321
+True
+
+>>> 'Bonjour' == 'Bonjour'
+True
+
+Yes, it case sensitive.
+
+>>> 'Mighty Mouse' == 'mighty mouse'
+False
+
+Integers do NOT equal Strings
+
+>>> '100' == 100
+False

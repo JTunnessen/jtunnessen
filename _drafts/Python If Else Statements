@@ -1,0 +1,44 @@
+Python If Else Elif Statements
+
+This is probably the most common type of control statement used in Python. It is pretty simple and logical when you think about it... "IF this is True, do this, ELSE (something else happens), do this." Then, don't forget about Elif. Elif combines "else if". You add this into the mix when your IF condition is False and you have another condition that you want to have checked.
+
+The IF statement consists of:
+
+1. The keyword if
+2. A condition (that is, an expression that evaluates to True or False)
+3. A colon (don't forget this or you will throw an error)
+4. Starting on the next line, an indented block of code (called the if clause)
+
+Let's review:
+
+if color == "Purple":
+	print('This must be a pickle.')
+
+The ELSE statement consists of:
+
+1. The keyword else
+2. A colon
+3. Starting ont he next line, an indented block of code (called the else clause)
+
+if color == "Purple":
+	print('This must be a pickle.')
+else:
+	print('Aren\'t pickles purple?')
+
+The ELIF statement consists of:
+
+1. The elif keyword
+2. A condition (that is, an expression that evaluates to True or False)
+3. A colon
+4. Starting onthe next line, an indented block of code (called the elif clause)
+
+if color == "Purple":
+	print('This must be a pickle.')
+elif color == "Blue":
+	print('Add the color Red and we have Purple.')
+elif flight == True:
+	print('You are not a pickle. Pickles can\'t fly. They swim everywhere.')
+else:
+	print('Aren\'t pickles purple?')
+
+In regards to elif statements, once one of the conditions such as (using the example above) is it purple?, is it blue? can it fly? is True the rest of the conditions are automatically skipped. At most, only one condition will evaluate to True and be executed. If you run through the entire block passing the if condition and all the elif conditions then you can end the block with an else statement which will run. 
