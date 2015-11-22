@@ -10,7 +10,7 @@ published: true
 ---
 <br>
 
-<img style="float: left;" src="/img/cyberIO_man.jpg">
+<img style="float: left" src="/img/cyberIO_man.jpg">
 photo: creative commons license University of Maryland
 
 I’m a writer and an entrepreneur, I love the cloud. And that is one of the reasons I do love the cloud. Any device I have on me, I can start writing my notes on that device and they are all housed in the same spot. I don’t have to search around for that great idea I had the other day. I know where it is. It is right here. It is in my little section of the cloud.  
