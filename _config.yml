@@ -27,11 +27,11 @@ ga_domain: auto
 ##Some commonly used links
 links:
   facebook: jimtunnessen
-  twitter: JimT2
-  email: jtunnessen@gmail.com
+  twitter: techbytesio
+  email: jt@techbytes.io
   github: jtunnessen
   linkedin: jimtunnessen
-  instagram: chiefdigitalme
+  instagram: techbytesio
   goodreads: jtunnessen
 
 ##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
